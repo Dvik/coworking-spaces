@@ -6,11 +6,7 @@ import (
 	"net/http"
 )
 
-type CoworkingSpace struct {
-	Name     string `json:"name"`
-	Speed    string `json:"speed"`
-	Charging string `json:"charging"`
-}
+
 
 var coworkingSpaces []CoworkingSpace
 
